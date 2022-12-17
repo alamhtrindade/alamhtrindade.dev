@@ -9,8 +9,10 @@ export default createGlobalStyle`
     }
 
     body{
+        margin-left: 30px;
+        margin-right: 30px;
         background-image: url(${background});
         background-size: cover;
-        margin: 0.625rem 1.875rem 0rem 1.875rem;
+        overflow-x: hidden;
     }
 `
